@@ -8,9 +8,6 @@ const stripe = require("stripe")(process.env.STRIPE_SECRET_TEST);
 const cors = require("cors");
 app.use(express.json());
 
-app.get("/",(req,res)=>{ 
-    res.send("Hiii")
-})
 app.post("/user",async(req,res)=>{
     const email = req.body.email
     const user = await User.findOne({email})
