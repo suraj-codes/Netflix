@@ -1,0 +1,135 @@
+.profilescreen{
+    height: 100vh;
+    color: white;
+
+}
+.profilescreen__body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+.profilescreen__info{
+    display: flex;
+}
+.profilescreen__body > h1{
+    font-size: 40px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+}
+.profilescreen__info > img{
+    height: 100px;
+}
+.profilescreen__details{
+    color: white;
+    margin-left: 25px;
+    flex: 1;
+}
+.profilescreen__details > h2{
+    background-color: gray;
+    padding: 15px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.profilescreen__signout{
+    padding:10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.profilescreen__plans{
+    margin-top: 20px;
+}
+.profilescreen__plans > h3{
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+}
+.profilescreen__plans > h4{
+    font-weight: 500;
+    margin-top: 20px;
+}
+.profilescreen__setplans{
+    padding:0 30px 0 30px;
+}
+.profilescreen__plan{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.profilescreen__plan > button{
+    padding:10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.profilescreen__planpayment{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.profilescreen__planpayment > button{
+    padding:10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.profilescreen__payment{
+    margin: 20px 0 20px 0;
+}
+.profilescreen__currency{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+.Selected{
+    padding:10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: gray !important;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+@media(max-width:800px){
+    .profilescreen__body{
+        width: 85%;
+        padding: 6%;
+        overflow: hidden;
+        
+    }
+    .profilescreen__body > h1{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .profilescreen__info > img{
+        display: none;
+    }
+    .profilescreen__plan{
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .profilescreen__plan > button{
+        margin-top: 10px;
+    }
+}

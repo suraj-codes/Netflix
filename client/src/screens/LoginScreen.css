@@ -1,0 +1,164 @@
+.loginscreen{
+    position: relative;
+    height: 100%;
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/757ab38f-5d08-40bc-b3eb-eaba63ed8203/93c34f94-56c8-40a7-8b2e-b4aac6427977/GB-en-20210125-popsignuptwoweeks-perspective_alpha_website_medium.jpg")center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+.loginscreen__gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8)0,
+        rgba(0,0,0,0)60%,
+        rgba(0,0,0,0.8)100%
+    );
+}
+.loginscreen__body > h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+.loginscreen__body > h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.loginscreen__body > h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.loginscreen__body{
+    background-color: transparent;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    right: 0;
+    left: 0;
+}
+.loginscreen__logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+.loginscreen__button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    outline: none;
+}
+.loginscreen__input{
+    margin: 20px;
+}
+.loginscreen__input > input{
+    padding: 10px;
+    outline: none;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+.loginscreen__getstarted{
+    padding: 15px 20px 17px 20px;
+    font-size: 1rem;
+    border: none;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+} 
+
+
+.signupscreen{
+    max-width: 300px;
+    padding: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+
+}
+.signupscreen > form{
+    margin-top: -80px;
+    display: grid;
+}
+.signupscreen > form > input{
+    padding: 16px 20px;
+    outline: none;
+    height: 20px;
+    margin-bottom: 14px;
+    border: none;
+    border-radius: 5px;
+}
+.signupscreen > form > button{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    outline: none;
+}
+
+.signupscreen > form > h1{
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.signupscreen > form > h4{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.signupscreen__gray{
+    color: gray;
+}
+.signupscreen__link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media(max-width:500px){
+    .loginscreen__body{
+        top: 20%;
+        width: 80%;
+    }
+.loginscreen__body > h1{
+    font-size: 2rem;
+}
+.loginscreen__body > h2{
+    font-size: 1.5rem;
+}
+.loginscreen__body > h3{
+    font-size: 1rem;
+}
+
+.loginscreen__input > input{
+    width: 100%;
+}
+
+.loginscreen__getstarted{
+    width: 108%;
+}
+}
