@@ -16,7 +16,7 @@ Netflix clone using MERN stack with Subscription, Movie details, embedded Youtub
 
 ```bash
 npm install stripe
-npm install redux
+npm install react-youtube
 ```
 
 ## Visit Clone
