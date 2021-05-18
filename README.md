@@ -1,15 +1,15 @@
-# Amazon Clone
+# Netflix Clone
 # Sceenshots(Desktop)
-<img src="https://i.ibb.co/qWmPwrm/Screenshot-17.png" width=400/>       <img src="https://i.ibb.co/9ZFZfRt/Screenshot-16.png" width=400/>
-<img src="https://i.ibb.co/zfBMJFY/Screenshot-18.png" width=400/>       <img src="https://i.ibb.co/VtXKzxh/Screenshot-19.png" width=400/>
-<img src="https://i.ibb.co/6scPdKy/Screenshot-20.png" width=400/>       <img src="https://i.ibb.co/fnCMNBV/Screenshot-21.png" width=400/>
+<img src="https://i.ibb.co/NpwQ0Bx/Screenshot-27.png" width=400/>       <img src="https://i.ibb.co/McQwxSx/Screenshot-28.png" width=400/>
+<img src="https://i.ibb.co/cy3tWzz/Screenshot-29.png" width=400/>       <img src="https://i.ibb.co/dJ3sVZ5/Screenshot-30.png" width=400/>
+<img src="https://i.ibb.co/Xxbg5WQ/Screenshot-31.png" width=400/>       <img src="https://i.ibb.co/4pGF1NH/Screenshot-32.png" width=400/>
 
 # Sceenshots(Mobile)
 <img src="https://i.ibb.co/FxD31sM/Screenshot-20210518-201942-Chrome.jpg" width=300 height=400/>        <img src="https://i.ibb.co/hYDq9Jd/Screenshot-20210518-201945-Chrome.jpg" width=300 height=400/>        <img src="https://i.ibb.co/L8v81LG/Screenshot-20210518-202250-Chrome.jpg" width=300 height=400/>        
-<img src="https://i.ibb.co/kGtFkRt/Screenshot-20210518-202718-Chrome.jpg" width=300 height=400/>        <img src="https://i.ibb.co/5T9sVwN/Screenshot-20210518-201414-Chrome.jpg" width=300 height=400/>        <img src="https://i.ibb.co/25zw7zg/Screenshot-20210518-202725-Chrome.jpg" width=300 height=400/>
+<img src="https://i.ibb.co/kGtFkRt/Screenshot-20210518-202718-Chrome.jpg" width=300 height=400/>        <img src="https://i.ibb.co/74XX70v/Screenshot-20210518-202729-Chrome.jpg" width=300 height=400/>        <img src="https://i.ibb.co/25zw7zg/Screenshot-20210518-202725-Chrome.jpg" width=300 height=400/>
 # Description
 
-Amazon clone using MERN stack with cart, payment processing and Authentication Functiionality.
+Netflix clone using MERN stack with Subscription, Movie details, embedded Youtube Trailer and Authentication Functiionality.
 
 ## Packages used:
 
@@ -20,4 +20,4 @@ npm install redux
 ```
 
 ## Visit Clone
-[Amazon](https://surajcodesamazon.herokuapp.com)
+[Netflix](https://surajcodesnetflix.herokuapp.com/)
